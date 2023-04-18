@@ -17,7 +17,7 @@ The difference between the two is that first will return ececution to the caller
 first = sum(10,20);
 
 3. What will be the output when you call above `sum` function (first) with three parameter like `sum(12, 24, 35)`. Explain why?
-
+//36 as it will ignore the third value, because it can only accept 2 values i.e. a and b .
 4. Can you store the first `sum` function in a variable named `add`. If yes why? If no why?
 
 5. Declare a function named `sayHello` the accepts a parameter `name` and returns the name like `Hello Arya`.
